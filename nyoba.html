@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timah Sepradik</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+      body {
+        background-color: #e0f2f1;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background-color: #d0ece8;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #004d40;
+        font-weight: bold;
+      }
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 10%;
+        background: linear-gradient(120deg, #00796b, #004d40);
+        color: white;
+      }
+      .hero-text h1 {
+        font-size: 40px;
+        color: #ffeb3b;
+      }
+      .hero-text p {
+        margin: 15px 0;
+        font-size: 18px;
+      }
+      .hero-text .button {
+        background-color: #00bfa5;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .hero-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 6px solid #004d40;
+      }
+      .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .tagline {
+        background-color: white;
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 8px;
+        color: #004d40;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>Maharani Aurazheti</h3>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <div class="tagline">SELAMAT DATANG DI</div>
+        <h1>Timah Sepradik</h1>
+        <p>Website edukasi Timah di Kep. Bangka Belitung</p>
+        <button class="button">MULAI</button>
+      </div>
+      <div class="hero-image">
+        <!-- GANTI GAMBAR TIMAH DI BAWAH INI -->
+        <img src="gambar-timah-kamu.jpg" alt="Gambar Timah" />
+        <!-- ↑ Ganti 'gambar-timah-kamu.jpg' dengan nama file gambar timah kamu -->
+      </div>
+    </section>
+  </body>
+</html>
